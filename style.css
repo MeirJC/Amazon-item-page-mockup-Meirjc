@@ -1,0 +1,53 @@
+/* Original website: 
+https://www.amazon.com/Nobels-ODR-1-Natural-Overdrive-Bass/dp/B083TPLVMN/?_encoding=UTF8&pd_rd_w=BCFdD&content-id=amzn1.sym.716a1ed9-074f-4780-9325-0019fece3c64&pf_rd_p=716a1ed9-074f-4780-9325-0019fece3c64&pf_rd_r=HWS781NZ9DQG71BS147B&pd_rd_wg=LSW87&pd_rd_r=0bcc254b-16c9-463e-b797-7ed7dbb307f0&ref_=pd_gw_ci_mcx_mr_hp_atf_m */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* *** Top Navigation Bars *** */
+.nav-container {
+  width: 100%;
+}
+
+.nav-flex-hr {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.nav-top {
+  height: 60px;
+  background-color: #131921;
+  /* border: 1px solid crimson; */
+}
+
+.nav-mid {
+  height: 39px;
+  background-color: #232F3E;
+  /* border: 1px solid green; */
+}
+
+.nav-down {
+  height: 48px;
+  background-color: #D8F7EB;
+  /* border: 1px solid navy; */
+}
+
+.nav-bottom {
+  height: 31.8px;
+  background-color: #FAFAFA;
+  border-top: 0.6px solid rgba(0, 0, 0, .17);
+  border-bottom: 0.6px solid rgba(0, 0, 0, .1);
+}
+
+/* *** Main Content *** */
+.main-content {
+  max-width: 1500px;
+  min-width: 800px;
+  border: 1px solid hotpink;
+  margin-left: auto;
+  margin-right: auto;
+
+}
